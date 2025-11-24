@@ -67,7 +67,7 @@ sudo nano /etc/docker/daemon.json
     "https://xxx" # Your source address. Could purchase from https://xuanyuan.cloud/
   ]
 ```
-3.estart service
+3.Restart service
 ```
 sudo systemctl daemon-reload && \
 sudo systemctl restart docker
