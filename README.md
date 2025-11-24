@@ -43,8 +43,8 @@ sudo systemctl status docker
 
 ## [option] Install Command Completion Tool
 ```
-sudo apt-get install bash-completion
-sudo curl -L https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/contrib/completion/bash/docker -o /etc/bash_completion.d/docker.sh
+sudo apt-get install bash-completion && \
+sudo curl -L https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/contrib/completion/bash/docker -o /etc/bash_completion.d/docker.sh && \
 source /etc/bash_completion.d/docker.sh
 ```
 
@@ -52,7 +52,7 @@ source /etc/bash_completion.d/docker.sh
 ```
 sudo groupadd docker && \
 sudo usermod -aG docker $USER && \
-newgrp docker && \
+newgrp docker
 ```
 ### update ```~/.bashrc``` 
 ```
