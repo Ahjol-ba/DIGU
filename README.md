@@ -65,7 +65,7 @@ sudo nano /etc/docker/daemon.json
 2.Edit the file
 ```
 "registry-mirrors": [
-    "https://xxx" # Your source address.
+    "https://xxx" # Your source address. Could purchase from https://xuanyuan.cloud/
   ]
 ```
 3.estart service
